@@ -213,8 +213,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Arjav**
-- GitHub: [@Arjavv](https://github.com/Arjavv)
-- LinkedIn: [Arjav Dariya](https://www.linkedin.com/in/arjavdariya)
+- GitHub: [@Aanya](https://github.com/aanyaaaaaa)
+
 
 ## 🙏 Acknowledgments
 
