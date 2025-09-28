@@ -1,0 +1,55 @@
+{
+  "name": "mern-expense-tracker",
+  "version": "1.0.0",
+  "description": "A full-stack expense tracking application built with MERN stack with Indian Rupee (₹) currency support",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "powershell -Command \"$env:PORT='3001'; npm start --prefix frontend\"",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-client": "cd frontend && npm install",
+    "install-server": "npm install",
+    "install-all": "npm run install-server && npm run install-client",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "mern",
+    "expense-tracker",
+    "react",
+    "node",
+    "mongodb",
+    "express",
+    "javascript",
+    "fullstack",
+    "indian-currency",
+    "rupee"
+  ],
+  "author": "Arjav <https://github.com/Arjavv>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Arjavv/mern-expense-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Arjavv/mern-expense-tracker/issues"
+  },
+  "homepage": "https://github.com/Arjavv/mern-expense-tracker#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "express-validator": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "concurrently": "^8.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+} 
